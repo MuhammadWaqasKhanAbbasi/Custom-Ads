@@ -44,8 +44,8 @@ public class SetupActivity extends AppCompatActivity {
 
         // Defining ad placement values and checking default ad placement.
         viewBinding.adPlacementsGroup.setTag(R.id.adPlacementPreRoll, getString(R.string.defaultPreRollAddPlacement));
-        viewBinding.adPlacementsGroup.setTag(R.id.adPlacementMidRoll, getString(R.string.defaultMidRollAddPlacement));
-        viewBinding.adPlacementsGroup.setTag(R.id.adPlacementPostRoll, getString(R.string.defaultPostRollAddPlacement));
+        viewBinding.adPlacementsGroup.setTag(R.id.adPlacementMidRoll, getString(R.string.defaultPreRollAddPlacement));
+        viewBinding.adPlacementsGroup.setTag(R.id.adPlacementPostRoll, getString(R.string.defaultPreRollAddPlacement));
         viewBinding.adPlacementsGroup.check(R.id.adPlacementPreRoll);
 
         // Checking default ad standard and defining action on its change.
